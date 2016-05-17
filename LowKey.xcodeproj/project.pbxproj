@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E947D3A1CC44BA90031CBAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E947D391CC44BA90031CBAB /* AppDelegate.swift */; };
+		9E947D3C1CC44BA90031CBAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E947D3B1CC44BA90031CBAB /* ViewController.swift */; };
+		9E947D3F1CC44BA90031CBAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E947D3D1CC44BA90031CBAB /* Main.storyboard */; };
+		9E947D421CC44BA90031CBAB /* LowKey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E947D401CC44BA90031CBAB /* LowKey.xcdatamodeld */; };
+		9E947D441CC44BA90031CBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E947D431CC44BA90031CBAB /* Assets.xcassets */; };
+		9E947D471CC44BA90031CBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E947D451CC44BA90031CBAB /* LaunchScreen.storyboard */; };
+		9E947D501CC44CBE0031CBAB /* InfoMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E947D4F1CC44CBE0031CBAB /* InfoMenuViewController.swift */; };
+		9E947D521CC44CEB0031CBAB /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E947D511CC44CEB0031CBAB /* InfoDetailViewController.swift */; };
+		9E947D541CC44D100031CBAB /* InteractiveMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E947D531CC44D100031CBAB /* InteractiveMenuViewController.swift */; };
+		9E947D561CC44D350031CBAB /* InteractiveDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E947D551CC44D350031CBAB /* InteractiveDetailViewController.swift */; };
+		AF00BCDC1CE42FE90087FF0C /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00BCDB1CE42FE90087FF0C /* LogViewController.swift */; };
+		AF00BCDE1CE42FFC0087FF0C /* HeartRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00BCDD1CE42FFC0087FF0C /* HeartRateViewController.swift */; };
+		AF00BCE01CE4424D0087FF0C /* MethodPickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00BCDF1CE4424D0087FF0C /* MethodPickViewController.swift */; };
+		AF00BCE21CE552510087FF0C /* LogValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00BCE11CE552510087FF0C /* LogValues.swift */; };
+		AF9A52BA1CDAE8CA0095777B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9A52B81CDAE8CA0095777B /* Interface.storyboard */; };
+		AF9A52BC1CDAE8CA0095777B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9A52BB1CDAE8CA0095777B /* Assets.xcassets */; };
+		AF9A52C31CDAE8CA0095777B /* LowKeyHeartWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AF9A52C21CDAE8CA0095777B /* LowKeyHeartWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AF9A52CA1CDAE8CA0095777B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A52C91CDAE8CA0095777B /* InterfaceController.swift */; };
+		AF9A52CC1CDAE8CA0095777B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A52CB1CDAE8CA0095777B /* ExtensionDelegate.swift */; };
+		AF9A52CE1CDAE8CA0095777B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A52CD1CDAE8CA0095777B /* NotificationController.swift */; };
+		AF9A52D01CDAE8CA0095777B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9A52CF1CDAE8CA0095777B /* Assets.xcassets */; };
+		AF9A52D41CDAE8CA0095777B /* LowKeyHeartWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AF9A52B61CDAE8CA0095777B /* LowKeyHeartWatch.app */; };
+		AF9A52E71CDC1F190095777B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A52C91CDAE8CA0095777B /* InterfaceController.swift */; };
+		AF9A52EB1CDC20810095777B /* CheckRateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A52EA1CDC20810095777B /* CheckRateController.swift */; };
+		AF9A52ED1CDC20C80095777B /* SetRateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A52EC1CDC20C80095777B /* SetRateController.swift */; };
+		AF9A52EF1CDC20DC0095777B /* NotifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A52EE1CDC20DC0095777B /* NotifyController.swift */; };
+		CC0311A81CC5EF5000F8181C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0311A71CC5EF5000F8181C /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF9A52C41CDAE8CA0095777B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E947D2E1CC44BA90031CBAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF9A52C11CDAE8CA0095777B;
+			remoteInfo = "LowKeyHeartWatch Extension";
+		};
+		AF9A52D21CDAE8CA0095777B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E947D2E1CC44BA90031CBAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF9A52B51CDAE8CA0095777B;
+			remoteInfo = LowKeyHeartWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF9A52DA1CDAE8CA0095777B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AF9A52C31CDAE8CA0095777B /* LowKeyHeartWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9A52DC1CDAE8CA0095777B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AF9A52D41CDAE8CA0095777B /* LowKeyHeartWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9E947D361CC44BA90031CBAB /* LowKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LowKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E947D391CC44BA90031CBAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E947D3B1CC44BA90031CBAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E947D3E1CC44BA90031CBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E947D411CC44BA90031CBAB /* LowKey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LowKey.xcdatamodel; sourceTree = "<group>"; };
+		9E947D431CC44BA90031CBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E947D461CC44BA90031CBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E947D481CC44BA90031CBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E947D4F1CC44CBE0031CBAB /* InfoMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoMenuViewController.swift; sourceTree = "<group>"; };
+		9E947D511CC44CEB0031CBAB /* InfoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDetailViewController.swift; sourceTree = "<group>"; };
+		9E947D531CC44D100031CBAB /* InteractiveMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveMenuViewController.swift; sourceTree = "<group>"; };
+		9E947D551CC44D350031CBAB /* InteractiveDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveDetailViewController.swift; sourceTree = "<group>"; };
+		AF00BCDB1CE42FE90087FF0C /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		AF00BCDD1CE42FFC0087FF0C /* HeartRateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateViewController.swift; sourceTree = "<group>"; };
+		AF00BCDF1CE4424D0087FF0C /* MethodPickViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodPickViewController.swift; sourceTree = "<group>"; };
+		AF00BCE11CE552510087FF0C /* LogValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogValues.swift; sourceTree = "<group>"; };
+		AF9A52B61CDAE8CA0095777B /* LowKeyHeartWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LowKeyHeartWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9A52B91CDAE8CA0095777B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AF9A52BB1CDAE8CA0095777B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF9A52BD1CDAE8CA0095777B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9A52C21CDAE8CA0095777B /* LowKeyHeartWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LowKeyHeartWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9A52C81CDAE8CA0095777B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		AF9A52C91CDAE8CA0095777B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AF9A52CB1CDAE8CA0095777B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		AF9A52CD1CDAE8CA0095777B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		AF9A52CF1CDAE8CA0095777B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF9A52D11CDAE8CA0095777B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9A52EA1CDC20810095777B /* CheckRateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckRateController.swift; sourceTree = "<group>"; };
+		AF9A52EC1CDC20C80095777B /* SetRateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetRateController.swift; sourceTree = "<group>"; };
+		AF9A52EE1CDC20DC0095777B /* NotifyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifyController.swift; sourceTree = "<group>"; };
+		CC0311A71CC5EF5000F8181C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E947D331CC44BA90031CBAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0311A81CC5EF5000F8181C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9A52BF1CDAE8CA0095777B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E947D2D1CC44BA90031CBAB = {
+			isa = PBXGroup;
+			children = (
+				CC0311A71CC5EF5000F8181C /* QuartzCore.framework */,
+				9E947D381CC44BA90031CBAB /* LowKey */,
+				AF9A52B71CDAE8CA0095777B /* LowKeyHeartWatch */,
+				AF9A52C61CDAE8CA0095777B /* LowKeyHeartWatch Extension */,
+				9E947D371CC44BA90031CBAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E947D371CC44BA90031CBAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E947D361CC44BA90031CBAB /* LowKey.app */,
+				AF9A52B61CDAE8CA0095777B /* LowKeyHeartWatch.app */,
+				AF9A52C21CDAE8CA0095777B /* LowKeyHeartWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E947D381CC44BA90031CBAB /* LowKey */ = {
+			isa = PBXGroup;
+			children = (
+				9E947D391CC44BA90031CBAB /* AppDelegate.swift */,
+				9E947D4E1CC44C700031CBAB /* ViewControllers */,
+				9E947D3D1CC44BA90031CBAB /* Main.storyboard */,
+				9E947D431CC44BA90031CBAB /* Assets.xcassets */,
+				9E947D451CC44BA90031CBAB /* LaunchScreen.storyboard */,
+				9E947D481CC44BA90031CBAB /* Info.plist */,
+				9E947D401CC44BA90031CBAB /* LowKey.xcdatamodeld */,
+			);
+			path = LowKey;
+			sourceTree = "<group>";
+		};
+		9E947D4E1CC44C700031CBAB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E947D3B1CC44BA90031CBAB /* ViewController.swift */,
+				9E947D4F1CC44CBE0031CBAB /* InfoMenuViewController.swift */,
+				9E947D511CC44CEB0031CBAB /* InfoDetailViewController.swift */,
+				9E947D531CC44D100031CBAB /* InteractiveMenuViewController.swift */,
+				9E947D551CC44D350031CBAB /* InteractiveDetailViewController.swift */,
+				AF00BCDD1CE42FFC0087FF0C /* HeartRateViewController.swift */,
+				AF00BCDB1CE42FE90087FF0C /* LogViewController.swift */,
+				AF00BCDF1CE4424D0087FF0C /* MethodPickViewController.swift */,
+				AF00BCE11CE552510087FF0C /* LogValues.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AF9A52B71CDAE8CA0095777B /* LowKeyHeartWatch */ = {
+			isa = PBXGroup;
+			children = (
+				AF9A52B81CDAE8CA0095777B /* Interface.storyboard */,
+				AF9A52BB1CDAE8CA0095777B /* Assets.xcassets */,
+				AF9A52BD1CDAE8CA0095777B /* Info.plist */,
+			);
+			path = LowKeyHeartWatch;
+			sourceTree = "<group>";
+		};
+		AF9A52C61CDAE8CA0095777B /* LowKeyHeartWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AF9A52C91CDAE8CA0095777B /* InterfaceController.swift */,
+				AF9A52CB1CDAE8CA0095777B /* ExtensionDelegate.swift */,
+				AF9A52CD1CDAE8CA0095777B /* NotificationController.swift */,
+				AF9A52EA1CDC20810095777B /* CheckRateController.swift */,
+				AF9A52EC1CDC20C80095777B /* SetRateController.swift */,
+				AF9A52EE1CDC20DC0095777B /* NotifyController.swift */,
+				AF9A52CF1CDAE8CA0095777B /* Assets.xcassets */,
+				AF9A52D11CDAE8CA0095777B /* Info.plist */,
+				AF9A52C71CDAE8CA0095777B /* Supporting Files */,
+			);
+			path = "LowKeyHeartWatch Extension";
+			sourceTree = "<group>";
+		};
+		AF9A52C71CDAE8CA0095777B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF9A52C81CDAE8CA0095777B /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E947D351CC44BA90031CBAB /* LowKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E947D4B1CC44BA90031CBAB /* Build configuration list for PBXNativeTarget "LowKey" */;
+			buildPhases = (
+				9E947D321CC44BA90031CBAB /* Sources */,
+				9E947D331CC44BA90031CBAB /* Frameworks */,
+				9E947D341CC44BA90031CBAB /* Resources */,
+				AF9A52DC1CDAE8CA0095777B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF9A52D31CDAE8CA0095777B /* PBXTargetDependency */,
+			);
+			name = LowKey;
+			productName = LowKey;
+			productReference = 9E947D361CC44BA90031CBAB /* LowKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF9A52B51CDAE8CA0095777B /* LowKeyHeartWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9A52DB1CDAE8CA0095777B /* Build configuration list for PBXNativeTarget "LowKeyHeartWatch" */;
+			buildPhases = (
+				AF9A52B41CDAE8CA0095777B /* Resources */,
+				AF9A52DA1CDAE8CA0095777B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF9A52C51CDAE8CA0095777B /* PBXTargetDependency */,
+			);
+			name = LowKeyHeartWatch;
+			productName = LowKeyHeartWatch;
+			productReference = AF9A52B61CDAE8CA0095777B /* LowKeyHeartWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		AF9A52C11CDAE8CA0095777B /* LowKeyHeartWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9A52D91CDAE8CA0095777B /* Build configuration list for PBXNativeTarget "LowKeyHeartWatch Extension" */;
+			buildPhases = (
+				AF9A52BE1CDAE8CA0095777B /* Sources */,
+				AF9A52BF1CDAE8CA0095777B /* Frameworks */,
+				AF9A52C01CDAE8CA0095777B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LowKeyHeartWatch Extension";
+			productName = "LowKeyHeartWatch Extension";
+			productReference = AF9A52C21CDAE8CA0095777B /* LowKeyHeartWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E947D2E1CC44BA90031CBAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Chapman University";
+				TargetAttributes = {
+					9E947D351CC44BA90031CBAB = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = W828ELL3B6;
+					};
+					AF9A52B51CDAE8CA0095777B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = W828ELL3B6;
+					};
+					AF9A52C11CDAE8CA0095777B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = W828ELL3B6;
+					};
+				};
+			};
+			buildConfigurationList = 9E947D311CC44BA90031CBAB /* Build configuration list for PBXProject "LowKey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E947D2D1CC44BA90031CBAB;
+			productRefGroup = 9E947D371CC44BA90031CBAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E947D351CC44BA90031CBAB /* LowKey */,
+				AF9A52B51CDAE8CA0095777B /* LowKeyHeartWatch */,
+				AF9A52C11CDAE8CA0095777B /* LowKeyHeartWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E947D341CC44BA90031CBAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E947D471CC44BA90031CBAB /* LaunchScreen.storyboard in Resources */,
+				9E947D441CC44BA90031CBAB /* Assets.xcassets in Resources */,
+				9E947D3F1CC44BA90031CBAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9A52B41CDAE8CA0095777B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9A52BC1CDAE8CA0095777B /* Assets.xcassets in Resources */,
+				AF9A52BA1CDAE8CA0095777B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9A52C01CDAE8CA0095777B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9A52D01CDAE8CA0095777B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E947D321CC44BA90031CBAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E947D541CC44D100031CBAB /* InteractiveMenuViewController.swift in Sources */,
+				AF00BCE01CE4424D0087FF0C /* MethodPickViewController.swift in Sources */,
+				AF9A52E71CDC1F190095777B /* InterfaceController.swift in Sources */,
+				9E947D3C1CC44BA90031CBAB /* ViewController.swift in Sources */,
+				AF00BCE21CE552510087FF0C /* LogValues.swift in Sources */,
+				AF00BCDC1CE42FE90087FF0C /* LogViewController.swift in Sources */,
+				9E947D561CC44D350031CBAB /* InteractiveDetailViewController.swift in Sources */,
+				AF00BCDE1CE42FFC0087FF0C /* HeartRateViewController.swift in Sources */,
+				9E947D3A1CC44BA90031CBAB /* AppDelegate.swift in Sources */,
+				9E947D521CC44CEB0031CBAB /* InfoDetailViewController.swift in Sources */,
+				9E947D421CC44BA90031CBAB /* LowKey.xcdatamodeld in Sources */,
+				9E947D501CC44CBE0031CBAB /* InfoMenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9A52BE1CDAE8CA0095777B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9A52CE1CDAE8CA0095777B /* NotificationController.swift in Sources */,
+				AF9A52CC1CDAE8CA0095777B /* ExtensionDelegate.swift in Sources */,
+				AF9A52EF1CDC20DC0095777B /* NotifyController.swift in Sources */,
+				AF9A52ED1CDC20C80095777B /* SetRateController.swift in Sources */,
+				AF9A52EB1CDC20810095777B /* CheckRateController.swift in Sources */,
+				AF9A52CA1CDAE8CA0095777B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF9A52C51CDAE8CA0095777B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF9A52C11CDAE8CA0095777B /* LowKeyHeartWatch Extension */;
+			targetProxy = AF9A52C41CDAE8CA0095777B /* PBXContainerItemProxy */;
+		};
+		AF9A52D31CDAE8CA0095777B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF9A52B51CDAE8CA0095777B /* LowKeyHeartWatch */;
+			targetProxy = AF9A52D21CDAE8CA0095777B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E947D3D1CC44BA90031CBAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E947D3E1CC44BA90031CBAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E947D451CC44BA90031CBAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E947D461CC44BA90031CBAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AF9A52B81CDAE8CA0095777B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF9A52B91CDAE8CA0095777B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E947D491CC44BA90031CBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E947D4A1CC44BA90031CBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E947D4C1CC44BA90031CBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LowKey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.chapman.app.LowKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9E947D4D1CC44BA90031CBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LowKey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.chapman.app.LowKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AF9A52D51CDAE8CA0095777B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = LowKeyHeartWatch_Extension;
+				INFOPLIST_FILE = LowKeyHeartWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.chapman.app.LowKey.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		AF9A52D61CDAE8CA0095777B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = LowKeyHeartWatch_Extension;
+				INFOPLIST_FILE = LowKeyHeartWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.chapman.app.LowKey.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		AF9A52D71CDAE8CA0095777B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LowKeyHeartWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.chapman.app.LowKey.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		AF9A52D81CDAE8CA0095777B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LowKeyHeartWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.chapman.app.LowKey.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E947D311CC44BA90031CBAB /* Build configuration list for PBXProject "LowKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E947D491CC44BA90031CBAB /* Debug */,
+				9E947D4A1CC44BA90031CBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E947D4B1CC44BA90031CBAB /* Build configuration list for PBXNativeTarget "LowKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E947D4C1CC44BA90031CBAB /* Debug */,
+				9E947D4D1CC44BA90031CBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9A52D91CDAE8CA0095777B /* Build configuration list for PBXNativeTarget "LowKeyHeartWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9A52D71CDAE8CA0095777B /* Debug */,
+				AF9A52D81CDAE8CA0095777B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9A52DB1CDAE8CA0095777B /* Build configuration list for PBXNativeTarget "LowKeyHeartWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9A52D51CDAE8CA0095777B /* Debug */,
+				AF9A52D61CDAE8CA0095777B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E947D401CC44BA90031CBAB /* LowKey.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E947D411CC44BA90031CBAB /* LowKey.xcdatamodel */,
+			);
+			currentVersion = 9E947D411CC44BA90031CBAB /* LowKey.xcdatamodel */;
+			path = LowKey.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9E947D2E1CC44BA90031CBAB /* Project object */;
+}
